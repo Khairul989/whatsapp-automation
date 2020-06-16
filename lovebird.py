@@ -6,8 +6,8 @@ client = Client(account_sid, auth_token)
 def sendLove():
     message = client.messages.create( 
                                   from_='whatsapp:+14155238886',  
-                                  body='Automate message-python',      
-                                  to='whatsapp:+601156474458' 
+                                  body='Assalamualaikum saya fyp, nak tanya fyp dah buat ke?',      
+                                  to='whatsapp:+60124446389' 
                               ) 
      
     print(message.sid)
