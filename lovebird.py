@@ -7,7 +7,7 @@ def sendLove():
     message = client.messages.create( 
                                   from_='whatsapp:+14155238886',  
                                   body='Assalamualaikum saya fyp, nak tanya fyp dah buat ke?',      
-                                  to='whatsapp:+60124446389' 
+                                  to='whatsapp:+601156474458' 
                               ) 
      
     print(message.sid)
